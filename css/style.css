@@ -56,3 +56,25 @@ header.header {
   color:var(--color-secondary);
   font-weight: 500;
 }
+.header .navbar .nav-link:hover {
+  color:var(--color-primary)
+}
+
+.btn-theme {
+  box-shadow: none;
+  margin: 0;
+  font-family: 'Poppins',serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 10px 0px 20px 20px;
+  transition: .5s ease;
+}
+
+.btn-theme:hover {
+background-color: var(--color-acent);
+color: white;
+box-shadow: none;
+}
