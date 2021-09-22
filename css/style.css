@@ -1,0 +1,58 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Colors variables */
+
+:root {
+  --color-primary: #2289ff;
+  --color-secondary: #314862 !important;
+  --color-acent: #193F6A;
+}
+
+/* custom classes */
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.color-primary {
+  color: var(--color-primary)
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.color-secondary {
+  color: var(--color-secondary);
+}
+.bg-acent {
+  background-color: var(--color-acent);
+}
+.color-acent {
+  color: var(--color-acent);
+}
+
+.btn-theme {
+  box-shadow: none;
+}
+
+header.header {
+  width: 100%;
+}
+
+.header nav.navbar {
+  box-shadow:none;
+  color: var(--color-secondary);
+}
+.header nav.navbar .navbar-brand {
+  font-family: 'Poppins', serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+.header nav.navbar .nav-item {
+  margin: auto 5px;
+}
+.header nav.navbar .nav-link {
+  font-family: 'Poppins', serif;
+  color:var(--color-secondary);
+  font-weight: 500;
+}
